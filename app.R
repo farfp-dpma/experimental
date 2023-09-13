@@ -1,3 +1,6 @@
+library(bs4Dash)
+library(ggplot2)
+library(tidyverse)
 shinyApp(
   ui = dashboardPage(
     header = dashboardHeader(),
